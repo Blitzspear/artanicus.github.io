@@ -12,7 +12,7 @@ exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'buildpublish.sh']
 # Build settings
 markdown: kramdown
 
-gems:
+plugins:
   - jekyll-multiple-languages-plugin
 
 # i18n options
