@@ -1,26 +1,35 @@
 <!DOCTYPE html>
 <html>
 
-  {% include head.html %}
+    {% include head.html %}
 
-  <body>
+    <body>
 
-      <div class="container-fluid">
-          
-          {% include navigation.html %}
-          
-          {{ content }}
-          
-          {% include footer.html %}
-          
-      </div>
-      
-      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
-      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        <div class="container-fluid">
+            <div id="particles-background"></div>
+
+            {% include navigation.html %}
+            
+            {{ content }}
+            
+            {% include footer.html %}
+            
+        </div>
+        
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+        
+        <!-- Latest compiled and minified Bootstrap JavaScript -->
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+        <script src="js/particles.min.js"></script>
+        <script>
+         /* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+         particlesJS.load('particles-background', '{{ baseurl}}/js/particlesjs-config.json', function() {
+             console.log('callback - particles.js config loaded');
+         });
+        </script>
+
+    </body>
     
-      <!-- Latest compiled and minified Bootstrap JavaScript -->
-      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
-
-  </body>
-  
 </html>

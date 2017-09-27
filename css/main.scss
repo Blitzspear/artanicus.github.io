@@ -13,21 +13,17 @@ $base-line-height: 1.5;
 $spacing-unit:     30px;
 
 $text-color:       #111;
-$background-color: #333;
+$background-color: #222;
 $green-background-color: #1b1;
 $brand-color:      #4EBA4E;
 $brand-shader-color:  #2CA82C;
 $brand-secondary-color: #E9F3E9;
 
+$panel-header-color: #161;
+
 $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
-
-// Width of the content area
-$content-width:    800px;
-
-$on-palm:          600px;
-$on-laptop:        800px;
 
 /* Bootstrap fix for static navigation */
 .navbar-nav.navbar-right:last-child {
@@ -40,20 +36,62 @@ body .container-fluid {
      color: #eee;
 }
 
+#particles-background {
+  background-color: $background-color;
+  position:fixed;
+  top:0;
+  right:0;
+  bottom:0;
+  left:0;
+  z-index:0; 
+}
+#overlay {
+  position: relative;
+}
+
 nav#main-navigation {
      background-color: $background-color;
      margin-bottom:0px;
 }
 
-div.call-for-action {
-     background: url('/img/intel-finland-large.png') no-repeat top right fixed;
-     min-height: 35em;
-     color: #ddd;
-     h2 { color: $green-background-color; }
-     p.lead { }
+div.call-to-action-panel {
+     color: #eee;
+     p.lead {
+        font-size: 1.2em;
+     }
      img.enl-fi-logo{
 	height: 15em;
-	margin-top: 5em;
      }
      a.btn { margin-top: 1em;}
+}
+
+div.download-panel {
+     img { max-height: 150px; }
+}
+
+footer {
+       margin: 5em 5em;
+}
+
+div.container-fluid div.panel-ingress {
+       color: eee;
+       border-color: lighten($panel-header-color, 10%);
+       border-radius: 0px;
+       div.panel-heading {
+           color: eee;
+           background-color: $panel-header-color;
+           h1 {
+              font-size: 2.0em;
+              text-transform: uppercase;
+           }
+       }
+       div.panel-body {
+           background-color: $background-color;
+       }
+}
+
+div.container-fluid hr {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-top: 2px solid $panel-header-color;
 }
