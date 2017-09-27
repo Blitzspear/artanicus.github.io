@@ -4,7 +4,7 @@ author: "Artanicus & Blitzspear"
 email: help@valaistuneet.fi
 description: "The Official ENL Finland Community"
 baseurl: ""
-url: "http://beta.valaistuneet.fi"
+#url: "http://beta.valaistuneet.fi"
 source-url: "https://github.com/Blitzspear/artanicus.github.io"
 #permalink: "/:categories/:title"
 exclude: ['Gemfile', 'Gemfile.lock', 'Rakefile', 'README.md', 'buildpublish.sh']
