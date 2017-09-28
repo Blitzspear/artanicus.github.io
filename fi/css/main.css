@@ -1,0 +1,57 @@
+/* Bootstrap fix for static navigation */
+.navbar-nav.navbar-right:last-child {
+  margin-right: 0; }
+
+body .container-fluid {
+  background-color: #222;
+  font-family: "Coda", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  color: #eee; }
+
+#particles-background {
+  background-color: #222;
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 0; }
+
+#overlay {
+  position: relative; }
+
+nav#main-navigation {
+  background-color: #222;
+  margin-bottom: 0px; }
+
+div.call-to-action-panel {
+  color: #eee; }
+  div.call-to-action-panel p.lead {
+    font-size: 1.2em; }
+  div.call-to-action-panel img.enl-fi-logo {
+    height: 15em; }
+  div.call-to-action-panel a.btn {
+    margin-top: 1em; }
+
+div.download-panel img {
+  max-height: 150px; }
+
+footer {
+  margin: 5em 5em; }
+
+div.container-fluid div.panel-ingress {
+  color: eee;
+  border-color: #189218;
+  border-radius: 0px; }
+  div.container-fluid div.panel-ingress div.panel-heading {
+    color: eee;
+    background-color: #161; }
+    div.container-fluid div.panel-ingress div.panel-heading h1 {
+      font-size: 2.0em;
+      text-transform: uppercase; }
+  div.container-fluid div.panel-ingress div.panel-body {
+    background-color: #222; }
+
+div.container-fluid hr {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border-top: 2px solid #161; }

@@ -3,19 +3,19 @@
   <channel>
     <title>Valaistuneet.fi</title>
     <description>The Official ENL Finland Community</description>
-    <link>/</link>
-    <atom:link href="/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>/fi/</link>
+    <atom:link href="/fi/feed.xml" rel="self" type="application/rss+xml"/>
     <pubDate>Thu, 28 Sep 2017 15:37:33 +0300</pubDate>
     <lastBuildDate>Thu, 28 Sep 2017 15:37:33 +0300</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
     
       <item>
-        <title>Beta site, here be dragons</title>
-        <description>&lt;p&gt;The current site is very much a beta version and still missing large chunks. Sorry!&lt;/p&gt;
+        <title>Beta saitti, varo kuoppia</title>
+        <description>&lt;p&gt;Olemme keskella nettisivu-uudistusta joten siellataalla on viela hieman keskeneraista!&lt;/p&gt;
 </description>
         <pubDate>Wed, 31 Aug 2016 15:52:49 +0300</pubDate>
-        <link>/beta/site/2016/08/31/beta-site.html</link>
-        <guid isPermaLink="true">/beta/site/2016/08/31/beta-site.html</guid>
+        <link>/fi/beta/site/2016/08/31/beta-site.html</link>
+        <guid isPermaLink="true">/fi/beta/site/2016/08/31/beta-site.html</guid>
         
         
         <category>beta</category>
